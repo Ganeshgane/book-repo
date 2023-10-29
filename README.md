@@ -1,8 +1,9 @@
-## install packages
+## project setup
 
-Run npm install
+. Run npm install
+.
 
-# TO add, get, update, delete and get all books
+## TO add, get, update, delete and get all books
 
 1. To create a book use POST: /api/books
 2. To get a book by using it's id GET: /api/books
