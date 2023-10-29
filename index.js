@@ -15,6 +15,9 @@ app.use(express.json());
 
 // routes
 app.use("/api/books", BookRoutes);
+app.get("/", (req, res) => {
+  res.send("Sever is running");
+});
 
 app.use((err, req, res, next) => {
   const errorStatus = err.status || 500;
