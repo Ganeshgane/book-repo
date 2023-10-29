@@ -1,21 +1,11 @@
-# To install nodemodules
+## install packages
 
 Run npm install
 
-# can add, get, update, delete students
+# TO add, get, update, delete and get all books
 
-To add a student use POST: /api/students
-To get a student use GET: /api/students
-To a single student using GET: /api/students/:id
-To update a student using PUT: /api/students/:id
-To ddelete a student using DELETE: /api/students
-To enroll a student to a course POST: /api/students/:studentId/:courseId
-
-# can add, get, update, deltee course
-
-To add a course use POST: /api/courses
-To get a course use GET: /api/courses
-To a single course using GET: /api/courses/:id
-To update a course using PUT: /api/courses/:id
-To delete a couse using DELETE: /api/courses
-To get all students enrolled for a course: /api/courses/:id
+1. To create a book use POST: /api/books
+2. To get a book by using it's id GET: /api/books
+3. To get all books using GET: /api/books
+4. To update a book using PUT: /api/books/:id
+5. To ddelete a book using DELETE: /api/boos
