@@ -1,7 +1,8 @@
 ## project setup
 
-. Run npm install
-.
+1. Run npm install
+2. Add .env file in that PORT (5000), MONGO (url), JWT_SECRET
+3. The base url for application when running in local server is http://localhost:5000/
 
 ## TO add, get, update, delete and get all books
 
